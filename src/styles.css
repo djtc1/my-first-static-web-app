@@ -19,3 +19,31 @@ main > h1 {
   text-align: center;
   font-size: 3.5em;
 }
+
+.small-text {
+  font-size: 0.8em; 
+}
+
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.resized-svg {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+/*  width: 50%;*/
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
