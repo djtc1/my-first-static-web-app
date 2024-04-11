@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/scrumpt/public_html/
-    - /src index2.html $DEPLOYPATH
+    - /bin/cp index2.html $DEPLOYPATH
